@@ -1,11 +1,15 @@
-vim=~/.vim
-if [ ! -d "$vim" ]
+path=~/.vim
+if [[ -d "$path" || -L "$path" ]]
 then
-  ln -s ~/.dotfiles/vim ~/.vim
+    echo Warning: $path already exists
+else
+    ln -s ~/.dotfiles/vim ~/.vim
 fi
 
-vimrc=~/.vimrc
-if [ ! -L "$vimrc" ]
+path=~/.vimrc
+if [[ -d "$path" || -L "$path" ]]
 then
-  ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
+    echo Warning: $path already exists
+else
+    ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 fi
