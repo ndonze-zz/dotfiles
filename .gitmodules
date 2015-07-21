@@ -34,3 +34,6 @@
 [submodule "/Users/nathan/.dotfiles/vim/bundle/vim-elixir"]
 	path = /Users/nathan/.dotfiles/vim/bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "vim/bundle/puppet"]
+	path = vim/bundle/puppet
+	url = https://github.com/rodjek/vim-puppet.git
