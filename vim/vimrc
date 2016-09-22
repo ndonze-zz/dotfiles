@@ -10,3 +10,5 @@ colorscheme zenburn
 set number
 set ignorecase
 set smartcase
+set splitbelow
+set splitright
