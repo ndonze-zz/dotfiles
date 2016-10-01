@@ -12,3 +12,4 @@ set ignorecase
 set smartcase
 set splitbelow
 set splitright
+let g:elm_format_autosave=1
